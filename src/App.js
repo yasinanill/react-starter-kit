@@ -1,11 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import Contacts from './components/Contacts';
+
 
 function App() {
   return (
-    <div className="App">
-     test
-    </div>
+
+    <>
+      <div>
+       <Contacts/>
+</div>
+
+    </>
+
+
   );
 }
 
